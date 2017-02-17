@@ -57,5 +57,5 @@ export function dateNow(){
 }
 
 export function countdown(startTime){
-	return setTimeout(function(){ return new Date() }, 1000);
+	return setTimeout(function(){ return startTime - 1 }, 1000);
 }
